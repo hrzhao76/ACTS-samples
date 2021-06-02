@@ -1,0 +1,60 @@
+22:18:56    EventFilesRa   VERBOSE   Matching file event000000002-particles.csv
+22:18:56    EventFilesRa   VERBOSE   Matching file event000000001-particles.csv
+22:18:56    EventFilesRa   VERBOSE   Matching file event000000000-particles.csv
+22:18:56    EventFilesRa   VERBOSE   Detected event range [0,2]
+22:18:56    Sequencer      INFO      Added reader 'CsvParticleReader'
+22:18:56    ParticleSele   DEBUG     selection particle rho [0,inf)
+22:18:56    ParticleSele   DEBUG     selection particle |z| [0,inf)
+22:18:56    ParticleSele   DEBUG     selection particle time [-inf,inf)
+22:18:56    ParticleSele   DEBUG     selection particle phi [-inf,inf)
+22:18:56    ParticleSele   DEBUG     selection particle eta [-2.5,2.5)
+22:18:56    ParticleSele   DEBUG     selection particle |eta| [0,inf)
+22:18:56    ParticleSele   DEBUG     selection particle pt [0.4,inf)
+22:18:56    ParticleSele   DEBUG     remove charged particles 0
+22:18:56    ParticleSele   DEBUG     remove neutral particles 1
+22:18:56    Sequencer      INFO      Added algorithm 'ParticleSelector'
+22:18:56    MagneticFiel   INFO      Use a constant magnetic field
+22:18:56    FatrasAlgori   DEBUG     hits on sensitive surfaces: 1
+22:18:56    FatrasAlgori   DEBUG     hits on material surfaces: 0
+22:18:56    FatrasAlgori   DEBUG     hits on passive surfaces: 0
+22:18:56    Sequencer      INFO      Added algorithm 'FatrasAlgorithm'
+22:18:56    Sequencer      INFO      Added writer 'CsvParticleWriter'
+22:18:56    Sequencer      INFO      Added writer 'CsvParticleWriter'
+22:18:56    Sequencer      INFO      Added writer 'CsvSimHitWriter'
+22:18:56    Sequencer      INFO      Processing events [0, 3)
+22:18:56    Sequencer      INFO      Starting event loop with 16 threads
+22:18:56    Sequencer      INFO        0 services
+22:18:56    Sequencer      INFO        0 context decorators
+22:18:56    Sequencer      INFO        1 readers
+22:18:56    Sequencer      INFO        2 algorithms
+22:18:56    Sequencer      INFO        3 writers
+22:18:56    ParticleSele   DEBUG     event 2 selected 154 from 1498 particles
+22:18:56    FatrasAlgori   DEBUG     154 input particles
+22:18:56    ParticleSele   DEBUG     event 0 selected 306 from 2863 particles
+22:18:56    FatrasAlgori   DEBUG     306 input particles
+22:18:56    ParticleSele   DEBUG     event 1 selected 410 from 3107 particles
+22:18:56    FatrasAlgori   DEBUG     410 input particles
+22:18:56    FatrasAlgori   DEBUG     154 simulated particles (initial state)
+22:18:56    FatrasAlgori   DEBUG     154 simulated particles (final state)
+22:18:56    FatrasAlgori   DEBUG     1883 simulated hits
+22:18:56    Sequencer      INFO      finished event 2
+22:18:56    FatrasAlgori   DEBUG     308 simulated particles (initial state)
+22:18:56    FatrasAlgori   DEBUG     308 simulated particles (final state)
+22:18:56    FatrasAlgori   DEBUG     3647 simulated hits
+22:18:56    FatrasAlgori   DEBUG     412 simulated particles (initial state)
+22:18:56    FatrasAlgori   DEBUG     412 simulated particles (final state)
+22:18:56    FatrasAlgori   DEBUG     4891 simulated hits
+22:18:56    Sequencer      INFO      finished event 0
+22:18:56    Sequencer      INFO      finished event 1
+22:18:56    Sequencer      INFO      Processed 3 events in 52.579456 ms (wall clock)
+22:18:56    Sequencer      INFO      Average time per event: 38.458007 ms/event
+22:18:56    Sequencer      DEBUG     Average time per algorithm:
+22:18:56    Sequencer      DEBUG       Reader:CsvParticleReader: 10.100456 ms/event
+22:18:56    Sequencer      DEBUG       Algorithm:ParticleSelector: 164.723000 us/event
+22:18:56    Sequencer      DEBUG       Algorithm:FatrasAlgorithm: 13.139844 ms/event
+22:18:56    Sequencer      DEBUG       Writer:CsvParticleWriter: 792.047000 us/event
+22:18:56    Sequencer      DEBUG       Writer:CsvParticleWriter: 1.009727 ms/event
+22:18:56    Sequencer      DEBUG       Writer:CsvSimHitWriter: 13.251173 ms/event
+22:18:56    Sequencer      DEBUG       Writer:CsvParticleWriter:endRun: 16.000000 ns/event
+22:18:56    Sequencer      DEBUG       Writer:CsvParticleWriter:endRun: 6.000000 ns/event
+22:18:56    Sequencer      DEBUG       Writer:CsvSimHitWriter:endRun: 11.000000 ns/event

@@ -1,0 +1,8 @@
+identifier	time_total_s	time_perevent_s
+Reader:RootParticleReader	0.00196	0.00196
+Reader:TrackParameterReader	0.0004977	0.0004977
+Algorithm:ParticleSelector	0.0001428	0.0001428
+Algorithm:TrackSelector	3.92e-05	3.92e-05
+Algorithm:AdaptiveMultiVertexFinder	0.002849	0.002849
+Writer:RootVertexPerformanceWriter	0.0003081	0.0003081
+Writer:RootVertexPerformanceWriter:endRun	0.007504	0.007504

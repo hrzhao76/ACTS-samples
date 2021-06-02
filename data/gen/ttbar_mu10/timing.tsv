@@ -1,0 +1,7 @@
+identifier	time_total_s	time_perevent_s
+Reader:EventGenerator	0.2084	0.06945
+Algorithm:ParticlesPrinter	0.6857	0.2286
+Writer:CsvParticleWriter	0.02595	0.00865
+Writer:RootParticleWriter	0.009692	0.003231
+Writer:CsvParticleWriter:endRun	9.6e-08	3.2e-08
+Writer:RootParticleWriter:endRun	0.05664	0.01888

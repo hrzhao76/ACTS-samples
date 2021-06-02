@@ -1,0 +1,169 @@
+23:27:48    MagneticFiel   INFO      Use a constant magnetic field
+23:27:48    Sequencer      INFO      Added reader 'RootParticleReader'
+23:27:48    ParticleSele   DEBUG     selection particle rho [0,inf)
+23:27:48    ParticleSele   DEBUG     selection particle |z| [0,inf)
+23:27:48    ParticleSele   DEBUG     selection particle time [-inf,inf)
+23:27:48    ParticleSele   DEBUG     selection particle phi [-inf,inf)
+23:27:48    ParticleSele   DEBUG     selection particle eta [-inf,inf)
+23:27:48    ParticleSele   DEBUG     selection particle |eta| [0,inf)
+23:27:48    ParticleSele   DEBUG     selection particle pt [0,inf)
+23:27:48    ParticleSele   DEBUG     remove charged particles 0
+23:27:48    ParticleSele   DEBUG     remove neutral particles 0
+23:27:48    Sequencer      INFO      Added algorithm 'ParticleSelector'
+23:27:48    Sequencer      INFO      Added reader 'TrackParameterReader'
+23:27:48    Sequencer      INFO      Added algorithm 'TrackSelector'
+23:27:48    Sequencer      INFO      Added algorithm 'AdaptiveMultiVertexFinder'
+23:27:48    Sequencer      INFO      Added writer 'RootVertexPerformanceWriter'
+23:27:48    Sequencer      INFO      Processing events [0, 1)
+23:27:48    Sequencer      INFO      Starting event loop with 16 threads
+23:27:48    Sequencer      INFO        0 services
+23:27:48    Sequencer      INFO        0 context decorators
+23:27:48    Sequencer      INFO        2 readers
+23:27:48    Sequencer      INFO        3 algorithms
+23:27:48    Sequencer      INFO        1 writers
+23:27:48    ParticleSele   DEBUG     event 0 selected 1498 from 1498 particles
+23:27:48    TrackSelecto   DEBUG     event 0 selected 92 from 119 tracks
+23:27:48    AdaptiveMult   INFO      Found 6 vertices in event
+23:27:48    AdaptiveMult   DEBUG     Found vertex at 0.00845914 -0.0107446   -34.1276          0 with 48 tracks.
+23:27:48    AdaptiveMult   DEBUG     Found vertex at -0.0304061  0.0044616    41.5714          0 with 16 tracks.
+23:27:48    AdaptiveMult   DEBUG     Found vertex at 0.0538344 0.0354918  -15.5954         0 with 7 tracks.
+23:27:48    AdaptiveMult   DEBUG     Found vertex at   0.0157502 -0.00355174    -53.6585           0 with 7 tracks.
+23:27:48    AdaptiveMult   DEBUG     Found vertex at -0.0135153  0.0442858    10.7139          0 with 6 tracks.
+23:27:48    AdaptiveMult   DEBUG     Found vertex at 0.0326041 0.0431774  -34.7365         0 with 18 tracks.
+23:27:48    RootVertexPe   DEBUG     Number of reco vertices in event: 6
+23:27:48    RootVertexPe   INFO      Total number of generated truth particles in event : 1498
+23:27:48    RootVertexPe   INFO      Total number of generated truth primary vertices : 7
+23:27:48    RootVertexPe   INFO      Total number of selected truth particles in event : 1498
+23:27:48    RootVertexPe   INFO      Total number of detector-accepted truth primary vertices : 7
+23:27:48    RootVertexPe   INFO      Total number of reco track-associated truth particles in event : 119
+23:27:48    RootVertexPe   INFO      Total number of reco track-associated truth primary vertices : 6
+0-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1955
+1-th:Associated truth particle z:-34.1256, input fitted track z0:-34.4147
+2-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1709
+3-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1131
+4-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1164
+5-th:Associated truth particle z:-34.1256, input fitted track z0:-34.0624
+6-th:Associated truth particle z:-34.1256, input fitted track z0:-34.0439
+7-th:Associated truth particle z:-34.1256, input fitted track z0:-33.9912
+8-th:Associated truth particle z:-34.1256, input fitted track z0:-33.9646
+9-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1227
+10-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1211
+11-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1381
+12-th:Associated truth particle z:-34.1256, input fitted track z0:-34.2081
+13-th:Associated truth particle z:-34.1256, input fitted track z0:-34.2132
+14-th:Associated truth particle z:-34.1256, input fitted track z0:-35.6328
+15-th:Associated truth particle z:-34.1256, input fitted track z0:-34.7127
+16-th:Associated truth particle z:-34.1256, input fitted track z0:-34.085
+17-th:Associated truth particle z:-34.1256, input fitted track z0:-35.0072
+18-th:Associated truth particle z:-34.1256, input fitted track z0:-34.7196
+19-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1809
+20-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1064
+21-th:Associated truth particle z:-34.1256, input fitted track z0:-34.141
+22-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1175
+23-th:Associated truth particle z:-34.1256, input fitted track z0:-34.0806
+24-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1034
+25-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1195
+26-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1374
+27-th:Associated truth particle z:-34.1256, input fitted track z0:-34.0187
+28-th:Associated truth particle z:-34.1256, input fitted track z0:-34.0569
+29-th:Associated truth particle z:-34.1256, input fitted track z0:-34.0577
+30-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1109
+31-th:Associated truth particle z:-34.1256, input fitted track z0:-36.6655
+32-th:Associated truth particle z:-34.1256, input fitted track z0:-33.9993
+33-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1871
+34-th:Associated truth particle z:-34.1256, input fitted track z0:-34.3211
+35-th:Associated truth particle z:-34.1256, input fitted track z0:-35.2216
+36-th:Associated truth particle z:-34.1256, input fitted track z0:-34.0156
+37-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1324
+38-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1365
+39-th:Associated truth particle z:-34.1256, input fitted track z0:-34.4619
+40-th:Associated truth particle z:-34.1256, input fitted track z0:-34.2334
+41-th:Associated truth particle z:-34.1256, input fitted track z0:-34.2702
+42-th:Associated truth particle z:-34.1256, input fitted track z0:-34.0591
+43-th:Associated truth particle z:-34.1256, input fitted track z0:-33.7033
+44-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1362
+45-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1166
+46-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1299
+47-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1218
+48-th:Associated truth particle z:-34.1256, input fitted track z0:-34.0654
+49-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1069
+50-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1009
+51-th:Associated truth particle z:-34.1256, input fitted track z0:-34.5991
+52-th:Associated truth particle z:-34.1256, input fitted track z0:-34.175
+53-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1366
+54-th:Associated truth particle z:-34.1256, input fitted track z0:-34.3009
+55-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1776
+56-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1802
+57-th:Associated truth particle z:-34.1256, input fitted track z0:-34.0732
+58-th:Associated truth particle z:-34.1256, input fitted track z0:-34.2065
+59-th:Associated truth particle z:-34.1256, input fitted track z0:-34.1267
+60-th:Associated truth particle z:-67.8326, input fitted track z0:-41.2498
+61-th:Associated truth particle z:23.1619, input fitted track z0:-36.9802
+62-th:Associated truth particle z:10.6793, input fitted track z0:10.7066
+63-th:Associated truth particle z:10.6793, input fitted track z0:10.4942
+64-th:Associated truth particle z:10.6793, input fitted track z0:8.00367
+65-th:Associated truth particle z:10.6793, input fitted track z0:10.5035
+66-th:Associated truth particle z:10.6793, input fitted track z0:10.6783
+67-th:Associated truth particle z:10.6793, input fitted track z0:10.4224
+68-th:Associated truth particle z:10.6793, input fitted track z0:10.7336
+69-th:Associated truth particle z:-53.659, input fitted track z0:-53.6888
+70-th:Associated truth particle z:-53.659, input fitted track z0:-53.6538
+71-th:Associated truth particle z:-53.659, input fitted track z0:-53.6757
+72-th:Associated truth particle z:-53.659, input fitted track z0:-56.4584
+73-th:Associated truth particle z:-53.659, input fitted track z0:-53.9376
+74-th:Associated truth particle z:-53.659, input fitted track z0:-53.8481
+75-th:Associated truth particle z:-53.659, input fitted track z0:-53.6361
+76-th:Associated truth particle z:-53.659, input fitted track z0:-53.5659
+77-th:Associated truth particle z:-53.659, input fitted track z0:-53.6705
+78-th:Associated truth particle z:-53.659, input fitted track z0:-53.7519
+79-th:Associated truth particle z:-53.659, input fitted track z0:-53.6949
+80-th:Associated truth particle z:-53.659, input fitted track z0:-53.5663
+81-th:Associated truth particle z:-201.59, input fitted track z0:-57.842
+82-th:Associated truth particle z:41.5921, input fitted track z0:41.5747
+83-th:Associated truth particle z:41.5921, input fitted track z0:40.8176
+84-th:Associated truth particle z:41.5921, input fitted track z0:41.5517
+85-th:Associated truth particle z:41.5921, input fitted track z0:41.8023
+86-th:Associated truth particle z:41.5921, input fitted track z0:41.6473
+87-th:Associated truth particle z:41.5921, input fitted track z0:41.5869
+88-th:Associated truth particle z:41.5921, input fitted track z0:41.5607
+89-th:Associated truth particle z:41.5921, input fitted track z0:41.4448
+90-th:Associated truth particle z:41.5921, input fitted track z0:41.5111
+91-th:Associated truth particle z:41.5921, input fitted track z0:41.5635
+92-th:Associated truth particle z:41.5921, input fitted track z0:41.5995
+93-th:Associated truth particle z:41.5921, input fitted track z0:41.5745
+94-th:Associated truth particle z:41.5921, input fitted track z0:41.6226
+95-th:Associated truth particle z:41.5921, input fitted track z0:41.5866
+96-th:Associated truth particle z:41.5921, input fitted track z0:41.6316
+97-th:Associated truth particle z:41.5921, input fitted track z0:41.5321
+98-th:Associated truth particle z:41.5921, input fitted track z0:41.6974
+99-th:Associated truth particle z:41.5921, input fitted track z0:41.551
+100-th:Associated truth particle z:41.5921, input fitted track z0:41.4473
+101-th:Associated truth particle z:41.5921, input fitted track z0:41.5704
+102-th:Associated truth particle z:41.5921, input fitted track z0:41.5912
+103-th:Associated truth particle z:41.5921, input fitted track z0:41.5276
+104-th:Associated truth particle z:41.5921, input fitted track z0:42.2832
+105-th:Associated truth particle z:41.5921, input fitted track z0:42.1372
+106-th:Associated truth particle z:-15.5751, input fitted track z0:-15.8089
+107-th:Associated truth particle z:-15.5751, input fitted track z0:-15.539
+108-th:Associated truth particle z:-15.5751, input fitted track z0:-15.5793
+109-th:Associated truth particle z:-15.5751, input fitted track z0:-15.6065
+110-th:Associated truth particle z:-15.5751, input fitted track z0:-15.5526
+111-th:Associated truth particle z:-15.5751, input fitted track z0:-15.6777
+112-th:Associated truth particle z:-15.5751, input fitted track z0:-15.6098
+113-th:Associated truth particle z:-15.5751, input fitted track z0:-15.5693
+114-th:Associated truth particle z:-268.783, input fitted track z0:-61.319
+115-th:Associated truth particle z:3.41366, input fitted track z0:-11.9318
+116-th:Associated truth particle z:65.3472, input fitted track z0:65.3871
+117-th:Associated truth particle z:65.3472, input fitted track z0:65.4095
+118-th:Associated truth particle z:-80.443, input fitted track z0:31.671
+23:27:48    Sequencer      INFO      finished event 0
+23:27:48    Sequencer      INFO      Processed 1 events in 13.570784 ms (wall clock)
+23:27:48    Sequencer      INFO      Average time per event: 13.300465 ms/event
+23:27:48    Sequencer      DEBUG     Average time per algorithm:
+23:27:48    Sequencer      DEBUG       Reader:RootParticleReader: 1.960034 ms/event
+23:27:48    Sequencer      DEBUG       Reader:TrackParameterReader: 497.668000 us/event
+23:27:48    Sequencer      DEBUG       Algorithm:ParticleSelector: 142.838000 us/event
+23:27:48    Sequencer      DEBUG       Algorithm:TrackSelector: 39.196000 us/event
+23:27:48    Sequencer      DEBUG       Algorithm:AdaptiveMultiVertexFinder: 2.848706 ms/event
+23:27:48    Sequencer      DEBUG       Writer:RootVertexPerformanceWriter: 308.133000 us/event
+23:27:48    Sequencer      DEBUG       Writer:RootVertexPerformanceWriter:endRun: 7.503890 ms/event
