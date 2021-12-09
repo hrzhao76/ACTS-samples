@@ -15,7 +15,8 @@ Download the [source code](https://github.com/hrzhao76/acts/tree/Add_Truth_and_R
 Inside a Docker container, below is the code to compile Acts. 
 
 ```bash 
-cmake -B build -S /acts -DACTS_BUILD_EXAMPLES_PYTHIA8=ON
+cmake -B build -S <source> -DACTS_BUILD_EXAMPLES_PYTHIA8=ON
+make -j16
 ```
 
 Otherwise you'll need to meet the prerequisites if you want to compile one a local machine, `a C++17 compiler`, `CMake`, `Boost`, `Eigen` and `Pythia8`.
@@ -71,3 +72,20 @@ Once you run this and want to re-run the vertexing, only the last command is nee
 ```bash
 ./ActsExampleVertexFinderTrackReaderPerformanceWriter  --rnd-seed=42 --bf-constant-tesla=0:0:2 --input-dir=data/reco_generic/ttbar_mu$pu --output-dir=data/vertexing/ttbar_mu$pu -l 2 | tee logs/log_pu$pu/log.ActsExampleVertexFinderTrackReaderPerformanceWriter_pu$pu
 ```
+
+## How AMVF is setup and called
+
+The binary `ActsExampleVertexFinderTrackReaderPerformanceWriter` is directly compiled from [TrackReaderVertexingPerformanceWriterExample.cpp](https://github.com/acts-project/acts/blob/main/Examples/Run/Vertexing/TrackReaderVertexingPerformanceWriterExample.cpp). The core part doing vertexing is L95-L103.  
+
+
+Then we need to read how AdaptiveMultiVertexFinderAlgorithm is implemented. [ActsExamples::AdaptiveMultiVertexFinderAlgorithm::execute](https://github.com/acts-project/acts/blob/main/Examples/Algorithms/Vertexing/src/AdaptiveMultiVertexFinderAlgorithm.cpp#L56) is the key to execute.  The result is obtained from [finder.find()](https://github.com/acts-project/acts/blob/main/Examples/Algorithms/Vertexing/src/AdaptiveMultiVertexFinderAlgorithm.cpp#L122). 
+
+
+Fitter is used through the finder. 
+L68 - L118 are configurations for this finder. The key is the `find()` function. Check the `find()` function, 
+[fitter.addVtxToFit()](https://github.com/acts-project/acts/blob/main/Core/include/Acts/Vertexing/AdaptiveMultiVertexFinder.ipp#L89) is the 
+
+Do a test, add a printout message for each function in fitter. 
+
+![AMVF](./images/AMVF.png)
+
